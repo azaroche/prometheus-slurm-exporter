@@ -6,8 +6,8 @@ SPDX-License-Identifier: Apache-2.0
 
 # Slurm Exporter
 
-[![REUSE status](https://api.reuse.software/badge/github.com/rivosinc/prometheus-slurm-exporter)](https://api.reuse.software/info/github.com/rivosinc/prometheus-slurm-exporter)
-[![Go Report Card](https://goreportcard.com/badge/github.com/rivosinc/prometheus-slurm-exporter)](https://goreportcard.com/report/github.com/rivosinc/prometheus-slurm-exporter)
+[![REUSE status](https://api.reuse.software/badge/github.com/azaroche/prometheus-slurm-exporter)](https://api.reuse.software/info/github.com/azaroche/prometheus-slurm-exporter)
+[![Go Report Card](https://goreportcard.com/badge/github.com/azaroche/prometheus-slurm-exporter)](https://goreportcard.com/report/github.com/azaroche/prometheus-slurm-exporter)
 
 Inspired by the now unmaintained prometheus slurm [exporter](https://github.com/vpenso/prometheus-slurm-exporter). We implement in some form or another, most of the
 metrics from the previously maintained exporter. We have not yet added GPU or fairshare support, although we will be more than happy to accept contributions for those.
@@ -21,13 +21,13 @@ profiling and optimization consideration.
 ### Getting Started
 
 Golang >= 1.20 is required. From there, follow the `justfile` or run `just prod` to start a dev server.
-You can also install the exporter directly with `go install github.com/rivosinc/prometheus-slurm-exporter@latest`. Then you can run `prometheus-slurm-exporter -h`.
+You can also install the exporter directly with `go install github.com/azaroche/prometheus-slurm-exporter@latest`. Then you can run `prometheus-slurm-exporter -h`.
 
 ```bash
 # example installation
-$ go install github.com/rivosinc/prometheus-slurm-exporter@v1.6.3
+$ go install github.com/azaroche/prometheus-slurm-exporter@v1.6.3
 # or if you like living on the edge
-$ go install github.com/rivosinc/prometheus-slurm-exporter@latest
+$ go install github.com/azaroche/prometheus-slurm-exporter@latest
 # if not already added, ensure
 $ export PATH="$PATH:$GOPATH/bin"
 $ prometheus-slurm-exporter -h
@@ -156,7 +156,7 @@ Env vars can be sepcified in a `.env` file, while using the `just`
 
 ### RPM/DEB Packages
 
-You can download RPM or DEB versions from the [Releases](https://github.com/rivosinc/prometheus-slurm-exporter/releases) tab.
+You can download RPM or DEB versions from the [Releases](https://github.com/azaroche/prometheus-slurm-exporter/releases) tab.
 
 ### Running with Systemd
 

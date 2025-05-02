@@ -10,8 +10,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/rivosinc/prometheus-slurm-exporter/cext"
-	"github.com/rivosinc/prometheus-slurm-exporter/exporter"
+	"github.com/azaroche/prometheus-slurm-exporter/cext"
+	"github.com/azaroche/prometheus-slurm-exporter/exporter"
 	"log/slog"
 )
 

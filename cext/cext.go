@@ -14,7 +14,7 @@ import (
 	"log/slog"
 
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/rivosinc/prometheus-slurm-exporter/exporter"
+	"github.com/azaroche/prometheus-slurm-exporter/exporter"
 )
 
 type Destructor interface {

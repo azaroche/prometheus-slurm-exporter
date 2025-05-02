@@ -10,7 +10,7 @@ import (
 
 	"log/slog"
 
-	"github.com/rivosinc/prometheus-slurm-exporter/exporter"
+	"github.com/azaroche/prometheus-slurm-exporter/exporter"
 )
 
 var (
