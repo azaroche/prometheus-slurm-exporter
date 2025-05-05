@@ -5,6 +5,8 @@ SPDX-License-Identifier: Apache-2.0
 -->
 
 # Slurm Exporter
+COPY from [PRIGINAL rivosinc ]( https://github.com/rivosinc/prometheus-slurm-exporter.git)
+
 
 [![REUSE status](https://api.reuse.software/badge/github.com/azaroche/prometheus-slurm-exporter)](https://api.reuse.software/info/github.com/azaroche/prometheus-slurm-exporter)
 [![Go Report Card](https://goreportcard.com/badge/github.com/azaroche/prometheus-slurm-exporter)](https://goreportcard.com/report/github.com/azaroche/prometheus-slurm-exporter)
